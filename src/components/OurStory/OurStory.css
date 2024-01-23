@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Krub:wght@200&family=Lobster&family=Lora&family=Montserrat:wght@400;500&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto&family=Rubik:wght@300&display=swap");
+
+.ourstory_section {
+  margin: 5rem 0 0 0;
+}
+.ourstory_section aside {
+  line-height: 2;
+  padding: 3rem;
+}
+.ourstory_section aside h3 {
+  font-family: "Lobster", sans-serif;
+  font-size: 2rem;
+  color: rgb(22, 74, 134);
+}
+
+@media (min-width: 763px) {
+  .ourstory_section {
+    margin: 5rem 0;
+  }
+  .ourstory_section aside {
+    text-align: left;
+    margin-top: -1rem;
+  }
+  .ourstory_section aside h3 {
+    font-size: 3rem;
+  }
+}

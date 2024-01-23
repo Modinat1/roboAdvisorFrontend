@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Krub:wght@200&family=Lobster&family=Lora&family=Montserrat:wght@400;500&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto&family=Rubik:wght@300&display=swap");
+
+.analytics_container {
+  margin: 1rem auto;
+  padding: 0 5rem;
+}
+.analytics_container ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  column-gap: 2rem;
+  align-items: center;
+  margin: auto;
+}
+.analytics_container ul li {
+  list-style: none;
+  margin: 0 auto 1rem auto;
+  text-align: center;
+}
+.analytics_container ul li small {
+  font-weight: 500;
+}
+.analytics_container ul li h3 {
+  color: var(--secondary_blue_color);
+  font-family: "Lobster", sans-serif;
+  font-size: 1.5rem;
+}
+@media (min-width: 764px) {
+  .analytics_container {
+    margin: 2rem auto;
+    padding: 0 5rem;
+  }
+  .analytics_container ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+  .analytics_container ul li {
+    list-style: none;
+    margin-bottom: 0;
+    text-align: left;
+  }
+}

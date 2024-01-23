@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Krub:wght@200&family=Lobster&family=Lora&family=Montserrat:wght@400;500&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto&family=Rubik:wght@300&display=swap");
+.automation_container main {
+  line-height: 2;
+}
+.automation_container main h2 {
+  color: rgb(22, 74, 134);
+  font-family: "Lobster", sans-serif;
+  font-size: 2rem;
+}
+.secondary_color {
+  color: var(--primary_blue_color);
+}
+.video_1_container {
+  width: 400px;
+}
+.video_1_container video {
+  width: 100%;
+}
+.automation_card_1 {
+  position: absolute;
+  left: 18rem;
+  bottom: 8rem;
+}
+.automation_card_2 {
+  position: absolute;
+  left: 16rem;
+  bottom: 1rem;
+}
+@media (min-width: 764px) {
+  .video_1_container {
+    width: 500px;
+  }
+  .automation_container main h2 {
+    font-size: 3rem;
+  }
+  .automation_card_1 {
+    position: absolute;
+    left: 28rem;
+    bottom: 15rem;
+  }
+  .automation_card_2 {
+    position: absolute;
+    left: 25rem;
+    bottom: 7.5rem;
+  }
+}

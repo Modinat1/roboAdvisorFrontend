@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Krub:wght@200&family=Lobster&family=Lora&family=Montserrat:wght@400;500&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto&family=Rubik:wght@300&display=swap");
+.range_slider_section main {
+  margin: 5rem 0;
+}
+.slider_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.slider {
+  position: absolute;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  top: -10%;
+  padding: 1rem;
+  width: 60%;
+}
+.slider label {
+  color: #333;
+}
+.slider .slider_input {
+  display: block;
+  width: 100%;
+}
+.range_slider_section main ul {
+  background-color: rgb(22, 74, 134);
+}
+.range_slider_section aside {
+  line-height: 2;
+  padding: 2rem;
+  text-align: center;
+}
+.range_slider_section aside h2 {
+  color: rgb(22, 74, 134);
+  font-family: "Lobster", sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+@media (min-width: 763px) {
+  .range_slider_section aside {
+    line-height: 2;
+    padding: 2rem;
+    text-align: left;
+  }
+  .range_slider_section aside h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+}
