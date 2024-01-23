@@ -10,8 +10,13 @@ const MobileBar = () => {
             <li>Crypto</li>
             <li>Support</li>
               <div>
+
+
+                <div>
             <button className='login_btn'>Login</button>
-             <button style={{backgroundColor: "rgb(22, 74, 134)"}} className='my-3 px-5 py-2 rounded text-white'>Get Started</button>
+             <button className='register_btn'>Get Started</button>
+                </div>
+
         </div>
         </ul> 
   )

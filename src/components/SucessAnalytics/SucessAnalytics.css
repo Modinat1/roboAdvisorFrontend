@@ -11,11 +11,15 @@
   column-gap: 2rem;
   align-items: center;
   margin: auto;
+  transition: all 0.5s ease-in;
 }
 .analytics_container ul li {
   list-style: none;
   margin: 0 auto 1rem auto;
   text-align: center;
+}
+.analytics_container ul li:hover {
+  transform: translateY(-2px);
 }
 .analytics_container ul li small {
   font-weight: 500;

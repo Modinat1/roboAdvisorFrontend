@@ -26,7 +26,7 @@ const Automation = () => {
             diversify deposits, and can help save you taxes, all without you ever lifting a finger
         </p>
 
-        <button style={{backgroundColor: "rgb(22, 74, 134)"}} className='my-3 px-5 py-2 rounded text-white'>Get Started</button>
+        <button className='register_btn'>Get Started</button>
         </main>
 
     

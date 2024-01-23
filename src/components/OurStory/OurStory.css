@@ -12,7 +12,12 @@
   font-size: 2rem;
   color: rgb(22, 74, 134);
 }
-
+.ourstory_section main {
+  transition: all 0.5s ease-in-out;
+}
+.ourstory_section main:hover {
+  opacity: 0.8;
+}
 @media (min-width: 763px) {
   .ourstory_section {
     margin: 5rem 0;

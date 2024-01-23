@@ -11,36 +11,39 @@
   color: var(--primary_blue_color);
 }
 .video_1_container {
-  width: 400px;
+  width: 350px;
 }
 .video_1_container video {
   width: 100%;
 }
 .automation_card_1 {
   position: absolute;
-  left: 18rem;
-  bottom: 8rem;
+  left: 35%;
+  bottom: 60%;
 }
 .automation_card_2 {
   position: absolute;
-  left: 16rem;
-  bottom: 1rem;
+  left: 40%;
+  bottom: 8%;
 }
 @media (min-width: 764px) {
   .video_1_container {
-    width: 500px;
+    width: 600px;
+  }
+  .video_1_container video {
+    width: 100%;
   }
   .automation_container main h2 {
     font-size: 3rem;
   }
   .automation_card_1 {
     position: absolute;
-    left: 28rem;
-    bottom: 15rem;
+    left: 60%;
+    bottom: 70%;
   }
   .automation_card_2 {
     position: absolute;
-    left: 25rem;
-    bottom: 7.5rem;
+    left: 65%;
+    bottom: 40%;
   }
 }
