@@ -26,7 +26,7 @@ const Automation = () => {
             diversify deposits, and can help save you taxes, all without you ever lifting a finger
         </p>
 
-        <button className='register_btn'>Get Started</button>
+        <button className='register_btn mt-8'>Get Started</button>
         </main>
 
     

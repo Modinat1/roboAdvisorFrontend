@@ -11,7 +11,7 @@
   color: var(--primary_blue_color);
 }
 .video_1_container {
-  width: 350px;
+  width: 200px;
 }
 .video_1_container video {
   width: 100%;

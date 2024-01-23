@@ -22,7 +22,7 @@ const RangeSlider = () => {
         <p>Just answer a few questions, and we'll build you a generalized portfolio of low-cost index funds from up to 17 global asset classes. Our 
             software handles all the trading, rebalancing, and other busywork to help grow your wealth for the long term
         </p>
-        <button className='register_btn'>Get Started</button>
+        <button className='register_btn my-8'>Get Started</button>
         </aside>
 
         <main>
